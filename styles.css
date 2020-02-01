@@ -1,0 +1,117 @@
+@import "reset.css";
+body {
+    background: #f6f9fc;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+        Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 15px; 
+    padding-bottom: 20px; 
+}
+
+.modal_title{
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.paint_title{
+    font-size: 15px;
+    font-weight: 800;
+}
+
+.black_background {
+	background: rgba(0,0,0,0.5);
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	z-index: 5;
+    display: none;
+}
+
+.white_background {
+	background: white;
+	width: 20%;
+	margin : 100px auto;
+	padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.canvas{
+    width: 700px;
+    height: 700px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow:  0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.15);
+
+}
+
+.controls{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.controls .controls_btns{
+    margin-bottom: 20px;
+}
+
+.controls_btns button {
+    all: unset;
+    cursor: pointer;
+    background-color: white;
+    padding: 5px 0px;
+    width: 80px;
+    border-radius: 5px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow:  0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.15);
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    color: rgba(0, 0, 0, 0.8);
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.modal_btns button {
+    all: unset;
+    cursor: pointer;
+    background-color: #FFFFFF;
+    padding: 5px 0px;
+    width: 80px;
+    border-radius: 3px;
+    text-align: center;
+    border-radius: 3px;
+    box-shadow:  0 3px 5px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.15);
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    color: rgba(0, 0, 0, 0.8);
+    font-weight: 800;
+    font-size: 15px;
+}
+
+.controls_btns button:active{
+    transform: scale(0.98);
+}
+
+.modal_btns button:active{
+    transform: scale(0.98);
+}
+.controls .controls_colors{
+    display: flex;
+}
+
+.controls_colors .controls_color{
+    width : 50px;
+    height: 50px;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow:  0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.15);
+}
+
+.controls .controls_range{
+    padding-bottom: 20px;
+}
