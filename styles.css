@@ -37,6 +37,7 @@ body {
     text-align: center;
     text-transform: uppercase;
     font-size: 15px;
+    line-height: 2.5;
 }
 
 .canvas{
@@ -79,7 +80,7 @@ body {
 .modal_btns button {
     all: unset;
     cursor: pointer;
-    background-color: #FFFFFF;
+    background-color: powderblue;
     padding: 5px 0px;
     width: 80px;
     border-radius: 3px;
@@ -88,7 +89,7 @@ body {
     box-shadow:  0 3px 5px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.15);
     border: 2px solid rgba(0, 0, 0, 0.2);
     color: rgba(0, 0, 0, 0.8);
-    font-weight: 800;
+    font-weight: bold;
     font-size: 15px;
 }
 
